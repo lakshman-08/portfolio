@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfolio</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div> <!-- Hamburger -->
+        <div class="right">
+          <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills & Certifications</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div id="particles-js"></div>
+    <!-- ------------------------------------------------------ Section - 1 ----------------------------------------------------------------- -->
+    <section class="first-section1">
+      <div class="left-section1">
+        <p>Hello,</p>
+        <h2>My name is <span class="highlight">Lakshman Sai</span></h2>
+        <h2>I'm a Java Full Stack Developer</h2>
+        <span id="element"></span>
+      </div>
+      <div class="right-section1"><img src="./images/new_home.png" alt="" /></div>
+    </section>
+
+    <!-- ------------------------------------------------------ Section - 2 ----------------------------------------------------------------- -->
+    <section id="about" class="second-section">
+      <h2 class="main-heading">About</h2>
+      <h2 class="side-heading">Profile Summary :</h2>
+      <div class="summary">
+        <div class="left-summary">
+          <img src="./images/8.jpg" alt="" />
+        </div>
+        <div class="right-summary">
+          <p>
+           Highly skilled and detail-oriented Java Full Stack Developer with over 1.5 Years of experience in designing, developing, and maintaining scalable web applications. Proficient in Java, Spring Boot, and RESTful APIs on the backend, and adept in modern frontend technologies such as React, and JavaScript. Expertise in Microservices architecture, 
+           database management (MySQL), and Learning Knowledge in cloud platforms (AWS).
+          </p>
+        </div>
+      </div>
+    </section>
+
+<!-- ------------------------------------------------------ Section - work experience ----------------------------------------------------------------- -->
+    <section class="work_experience" id="experience">
+    <div class="page-wrapper">
+      <div class="section-timeline-heading">
+        <div class="container">
+          <div class="padding-vertical-xlarge">
+            <div class="timeline-main_heading-wrapper">
+              <div class="margin-bottom-medium">
+                <h2 class="main-heading">Work Experience</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-timeline">
+        <div class="container">
+          <div class="timeline_component">
+            <div class="timeline_progress">
+              <div class="timeline_progress-bar"></div>
+            </div>
+
+            <div class="timeline_item">
+              <div class="timeline_left">
+                <div class="timeline_date-text">
+                  <time datetime="2025-03">March 2025 - Present</time>
+                </div>
+              </div>
+              <div class="timeline_centre">
+                <div class="timeline_circle"></div>
+              </div>
+              <div class="timeline_right">
+                <div class="margin-bottom-xlarge">
+                  <div class="timeline_text">
+                    <h3 class="role">Tata Consultancy Services</h3>
+                    <span class="company_name">Assistant System Engineer</span>
+                  </div>
+                </div>
+                <div class="timeline_text_wrapper">
+                  <ul>
+                    <li>Designed and developed a microservices-based insurance claim system using Spring Boot, 
+                      reducing service coupling and improving maintainability by 35%.</li>
+                    <li>Built and connected frontend components with backend services using Axios </li>
+                    <li>Conducted unit testing using JUnit for backend systems.</li>
+                    <li>Integrated JWT-based authentication and API Gateway routing, improving application security and streamlining 
+                      request flow across services.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline_progress">
+              <div class="timeline_progress-bar"></div>
+            </div>
+
+            <div class="timeline_item">
+              <div class="timeline_left">
+                <div class="timeline_date-text">
+                  <time datetime="2024-03">March 2024 - March 2025</time>
+                </div>
+              </div>
+              <div class="timeline_centre">
+                <div class="timeline_circle"></div>
+              </div>
+              <div class="timeline_right">
+                <div class="margin-bottom-medium">
+                  <div class="timeline_text">
+                    <h3 class="role">Tata Consultancy Services</h3>
+                    <span class="company_name">Assistant System Engineer Trainee</span>
+                  </div>
+                </div>
+                <div class="timeline_text_wrapper">
+                  <ul>
+                    <li>Developed and optimized backend components using Spring Boot, improving system response times by 35% in high-traffic scenarios</li>
+                    <li>Designed and implemented 40+ RESTful APIs to support seamless communication between 
+                      front-end and back-end systems, ensuring 99% uptime and reliability.</li>
+                    <li>Streamlined database operations with efficient queries and indexing strategies, enhancing data retrieval speed by 40% for real-time analytics.</li>
+                    <li>Collaborated with cross-functional teams in an Agile environment to deliver project milestones 20% faster  while maintaining high-quality code standards.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="overlay-fade-top"></div>
+            <div class="overlay-fade-bottom"></div>
+          </div>
+        </div>
+        <div style="height: 0vh;"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- ------------------------------------------------------ Section - 3 ----------------------------------------------------------------- -->
+
+    <section id="education" class="third-section">
+      <h2 class="main-heading">Education</h2>
+      <div class="education">
+        <div class="edu">
+          <div class="edu-card">
+            <h2>BTech in Computer Science</h2>
+            <p>Sri Manakula Vinayagar Engineering College</p>
+            <p>CGPA : 8.02</p>
+            <p>Year of Graduation: 2023</p>
+          </div>
+
+          <div class="edu-card">
+            <h2>Intermediate (12th Grade)</h2>
+            <p>Sri Sai Junior College</p>
+            <p>CGPA : 9.44</p>
+            <p>Year of Completion: 2019</p>
+          </div>
+
+          <div class="edu-card">
+            <h2>SSC (10th Grade)</h2>
+            <p>School of Secondary Education</p>
+            <p>CGPA : 9.2</p>
+            <p>Year of Completion: 2017</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------- section - 4 -------------------------------------------------------- -->
+
+     <section id="projects" class="fourth-section">
+      <h2 class="main-heading">Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <div class="project-card-right">
+            <img src="./images/portfolio.jpg" alt="Project 1" />
+          </div>
+          <div class="project-card-left">
+            <h2 class="side-heading">Portfolio Website</h2>
+            <p>
+              Project description: A personal portfolio website showcasing
+              skills, projects, and contact information. Designed with a modern
+              UI and responsive layout.
+            </p>
+            <br />
+            <p><b>Technologies used:</b> HTML, CSS, JavaScript</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-right">
+            <img src="./images/projects/hospital_management_system.jpg" alt="Project 1" />
+          </div>
+          <div class="project-card-left">
+            <h2 class="side-heading">Medsync - Hospital Management System</h2>
+            <p>
+              Project description: A hospital management system that streamlines
+              patient registration, appointment scheduling, and medical record
+              management. Built with robust backend technologies.
+            </p>
+            <br />
+            <p><b>Technologies used:</b>Java 8,Spring Boot,Spring Security,MySQL</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-right">
+            <img src="./images/projects/claims-processing-automation.jpg" alt="Project 1" />
+          </div>
+          <div class="project-card-left">
+            <h2 class="side-heading">ClaimConnect – Insurance Claim Processing System</h2>
+            <p>
+              Project description: ClaimConnect is a microservices-based insurance claim processing system built using Spring Boot for the backend 
+              and React for the frontend. The architecture ensures scalability, modularity, and maintainability while leveraging Eureka Server for 
+              service discovery, Spring Cloud Config Server for centralized configuration management, and API Gateway for secure and efficient API routing.
+            </p>
+            <br />
+            <p><b>Technologies used:</b>React, Redux, Bootstrap, Spring Boot, Spring Cloud (Eureka, Gateway, Config Server), Feign Client, JWT, MySQL,Git</p>
+          </div>
+        </div>
+
+        
+
+         <div class="project-card">
+          <div class="project-card-right">
+            <img src="./images/projects/J7G_Infra_web.jpeg" alt="Project 3" />
+          </div>
+          <div class="project-card-left">
+            <h2 class="side-heading">J&G Infra Web</h2>
+            <p>
+              Project description: A web application showcasing construction projects,
+               including project details, images, and client testimonials.
+            </p>
+            <br />
+            <p><b>Technologies used:</b>HTML,CSS,Bootstrap</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-right">
+            <img src="./images/todo.png" alt="Project 3" />
+          </div>
+          <div class="project-card-left">
+            <h2 class="side-heading">To-Do List App</h2>
+            <p>
+              Project description: A task management application that allows
+              users to add, edit, and delete tasks with a simple and interactive
+              UI.
+            </p>
+            <br />
+            <p><b>Technologies used:</b> ReactJS,CSS</p>
+          </div>
+        </div>
+      
+      
+      </div>
+
+    </section>
+
+
+
+    <!-- ----------------------------------------- section - 5 ----------------------------------------------------------------- -->
+
+    <section id="skills" class="fifth-section">
+      <h2 class="main-heading">Skills & Certifications</h2>
+      <div class="skills-certifications">
+        <!-- Left Side: Skills -->
+        <div class="skills">
+          <h3 class="side-heading">Skills</h3>
+          <div class="skill">
+            <p>HTML,CSS & Bootstrap</p>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" data-progress="80"></div>
+              </div>
+              <span class="percentage">80%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <p>Javascript</p>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" data-progress="70"></div>
+              </div>
+              <span class="percentage">70%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <p>ReactJS</p>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" data-progress="80"></div>
+              </div>
+              <span class="percentage">80%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <p>Java & Spring Boot</p>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" data-progress="90"></div>
+              </div>
+              <span class="percentage">90%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <p>Microservices</p>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" data-progress="90"></div>
+              </div>
+              <span class="percentage">90%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <p>MySQL</p>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" data-progress="85"></div>
+              </div>
+              <span class="percentage">85%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Certifications -->
+        <div class="certifications">
+          <h3 class="side-heading">Certifications</h3>
+          <div class="certification-list">
+            <div class="cert-card">
+              <p>Java Spring Framework 6 with Spring Boot 3 - Udemy</p>
+              <a href="https://www.udemy.com/certificate/UC-8c1abe87-5b22-4454-9d78-272449a13b67/" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+              <p>Spring Boot + Apache Kafka Course -The Practical Guide - Udemy</p>
+              <a href="https://www.udemy.com/certificate/UC-1722bbdf-1dc3-4f7d-9fa9-e943eca49253/" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+
+            <div class="cert-card">
+              <p>AWS Certified Cloud Practitioner - AWS</p>
+              <a href="https://www.credly.com/badges/b18c8c84-de6b-4b5a-b98f-b1d0760c6872/linked_in_profile" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-card">
+              <p>Python for Beginners - Udemy</p>
+              <a href="https://www.udemy.com/certificate/UC-1e21c6c5-b522-4498-8a16-fdf1acb84c6f/" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-card">
+              <p>Microsoft Certified: Azure Database Administrator Associate - Microsoft</p>
+              <a href="https://learn.microsoft.com/en-us/users/muppinasai-0115/credentials/f9dbf33c42df654e?ref=https%3A%2F%2Fwww.linkedin.com%2F" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-card">
+              <p>Introduction to Web Development with HTML, CSS, JavaScript - IBM</p>
+              <a href="https://www.coursera.org/account/accomplishments/verify/9ZC9VMCH7V8P" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-card">
+              <p>Introduction to Structured Query Language (SQL) - coursera</p>
+              <a href="https://www.coursera.org/account/accomplishments/verify/A7HCZZCLVT3T" class="cert-link" target="_blank">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------ section - 6 ------------------------------------------------------- -->
+
+    <section id="contact" class="contact-section">
+      <h2 class="main-heading">Contact Me</h2>
+      <div class="contact-container">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeG2Vs1yMpS3TrtIQxxtnzOUVDAXi1cdK1Y89w_wdpL-7RRLA/viewform?embedded=true"
+          width="640"
+          height="1000"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          scrolling="no"
+        >
+          Loading…
+        </iframe>
+
+       
+      </div>
+      <div class="social-media-container">
+        <a href="https://www.linkedin.com/in/muppina-lakshman-sai/" class="social-link linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/lakshman-08" class="social-link github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        
+      </div>
+    </section>
+
+    <script>
+
+    </script>
+
+    <script
+      src="https://kit.fontawesome.com/183f4a10c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="./script.js"></script>
+    <script src="./particles.js"></script>
+  
+  </body>
+</html>
