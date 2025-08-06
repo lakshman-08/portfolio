@@ -17,7 +17,7 @@ This is my **personal portfolio website** designed to showcase my **skills, educ
 
 ### 🌐 Live Demo
 
-🔗 [Check out the live site here](https://your-live-link.com)
+🔗 [Check out the live site here](https://personal-portfolio-339e08.netlify.app/)
 
 ---
 
