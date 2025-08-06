@@ -8,16 +8,13 @@ This is my **personal portfolio website** designed to showcase my **skills, educ
 ### 🔥 Key Features
 
 * 🎨 **Responsive Design** – Works seamlessly on desktop, tablet, and mobile.
-* ✨ **Animated Transitions & Scroll Effects** – Built using modern **CSS3** and **JavaScript**.
 * 🧠 **Project & Work Highlights** – Real-time projects with backend/frontend stack.
 * 📧 **Contact Section** – Integrated using **Google Forms**.
 * 🔗 **Social Media Integration** – Quick access to LinkedIn, GitHub, etc.
 
 ---
 
-### 🌐 Live Demo
-
-🔗 [Check out the live site here](https://personal-portfolio-339e08.netlify.app/)
+### 🌐[Check out the live site here](https://personal-portfolio-339e08.netlify.app/)
 
 ---
 
